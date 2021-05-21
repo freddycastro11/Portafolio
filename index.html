@@ -682,28 +682,28 @@
 
                     </div>
 
-                    <form name="contact" action="" class="contact__form grid" netlify>
+                    <form name="contact" method="POST" data-netlify="true" action="" class="contact__form grid" >
                         <div class="contact__inputs grid">
                             <div class="contact__content">
-                                <label for="" class="contact__label" name="name">Name</label>
-                                <input type="text" class="contact__input">
+                                <label for="" class="contact__label" >Name</label>
+                                <input type="text" name="name" class="contact__input">
                             </div>
                             <div class="contact__content">
-                                <label for="" class="contact__label" name="email">Email</label>
-                                <input type="email" class="contact__input">
+                                <label for="" class="contact__label" >Email</label>
+                                <input type="email" name="email" class="contact__input">
                             </div>
                             
                         </div>
                         
                             <div class="contact__content">
-                                <label for="" class="contact__label" name="coment">Message</label>
-                                <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                                <label for="" class="contact__label" >Message</label>
+                                <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
                             </div>
                         
                         <div>
                             <a href="" class="button button--flex">
                                 Send Message
-                                <i type="submit" value="Enviarcontacto" class="uil uil-message button__icon"></i>
+                                <i type="submit"  class="uil uil-message button__icon"></i>
                             </a>
                         </div>
                     </form>
