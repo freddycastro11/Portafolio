@@ -182,3 +182,7 @@ if (selectedTheme) {
     localStorage.setItem("selected-icon", getCurrentIcon());
 });
 
+// For Live Projects
+window.addEventListener('load',function(){
+  document.querySelector('body').classList.add("loaded")  
+});
