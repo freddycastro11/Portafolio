@@ -362,6 +362,7 @@ img{
     padding: 1rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
+    
 }
 
 .button:hover{
@@ -386,6 +387,11 @@ img{
 .button--flex{
     display: inline-flex;
     align-items: center;
+    outline: none !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+
 }
 
 .button--small{
